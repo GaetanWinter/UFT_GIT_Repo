@@ -9,7 +9,13 @@ Set pageGoogle = nav.Page("Google")
 pageGoogle.WebEdit("Rech.").Set Parameter("VALEUR_RECHERCHE")
 pageGoogle.WebEdit("Rech.").Submit
 
+'Synchro
+Browser("Nav").Page("Recherche").Image("Google").WaitProperty "visible", True, 10000 @@ hightlight id_;_Browser("Google").Page("Recherche - Recherche").Image("Google")_;_script infofile_;_ZIP::ssf8.xml_;_
 
 
-Browser("Google").Page("Recherche - Recherche").WebElement("recherche").Check CheckPoint("recherche") @@ hightlight id_;_Browser("Google").Page("Recherche - Recherche").WebElement("recherche")_;_script infofile_;_ZIP::ssf1.xml_;_
+'Lien
+Browser("Nav").Page("Recherche").WebElement(Parameter("VALEUR_RECHERCHE")).Click
+
+
+
 

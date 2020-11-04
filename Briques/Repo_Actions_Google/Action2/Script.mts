@@ -1,8 +1,6 @@
 ﻿'Variable
 Dim url
 
-
-
 'Fermeture d'IE
 SystemUtil.CloseProcessByName("iexplore.exe")
 
@@ -10,7 +8,7 @@ SystemUtil.CloseProcessByName("iexplore.exe")
 url= "www.google.com"
 SystemUtil.Run "iexplore", url
 
-If Browser("Google").Page("Google").Image("Google").Exist Then
+If Browser("Nav").Page("Google").Image("Google").Exist Then
 	Reporter.ReportEvent micPass, "Statut", "OK"
 	Parameter("STATUT_BRIQUE") = "OK"
 Else
