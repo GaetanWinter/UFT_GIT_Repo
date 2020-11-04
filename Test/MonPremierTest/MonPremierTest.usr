@@ -14,8 +14,8 @@ DevelopTool=AQT
 Action0=Action0\Script.mts
 Action Principale=Action1\Script.mts
 RechercheGoogle=Action2\Script.mts
-RechercheGoogle [Repo_Actions_Google]=Action1\Script.mts
 LoginGoogle [Repo_Actions_Google]=Action2\Script.mts
+RechercheGoogle [Repo_Actions_Google]=Action1\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -42,7 +42,6 @@ AI=
 Database=
 File Content=
 Insight=
-Mobile=
 Windows Applications=
 TEA=
 Web=

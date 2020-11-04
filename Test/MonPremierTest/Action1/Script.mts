@@ -7,7 +7,7 @@ Dim statut
 RunAction "LoginGoogle [Repo_Actions_Google]", oneIteration, statut
 
 'Appel de l'action recherche Google du répertoire d'action Google
-RunAction "RechercheGoogle [Repo_Actions_Google]", oneIteration, "Recherche"
+RunAction "RechercheGoogle [Repo_Actions_Google]", oneIteration, Datatable("valeurRecherche", dtGlobalSheet)
 
 Sub test ( texte, nombre)
 	Msgbox texte & nombre
