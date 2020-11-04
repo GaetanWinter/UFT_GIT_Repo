@@ -1,0 +1,4 @@
+﻿<Properties>
+  <WatchEntry0 value="Browser(&quot;Nav&quot;).Page(&quot;Gmail&quot;).Link(&quot;Link&quot;)" />
+  <WatchEntry1 value="Browser(&quot;Nav&quot;).Page(&quot;Gmail&quot;).Link(&quot;Link&quot;).GetTOProperty &quot;text&quot;" />
+</Properties>
